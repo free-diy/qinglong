@@ -19,6 +19,7 @@ pnpm config set registry https://registry.npmmirror.com
 pnpm install -g redis@4.6.10
 pnpm install -g ds
 pnpm install -g qs
+pnpm install -g http-cookie-agent/http
 pnpm install -g png-js
 pnpm install -g date-fns
 pnpm install -g axios@1.6.7
