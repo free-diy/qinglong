@@ -28,6 +28,7 @@ pnpm install -g crypto-js
 pnpm install -g tunnel
 pnpm install -g js-base64
 pnpm install -g ts-md5
+pnpm install -g tough-cookie
 pnpm install -g tslib
 pnpm install -g global-agent
 pnpm install -g @types/node
@@ -42,10 +43,10 @@ pnpm install -g tough-cookie
 pnpm install -g https-proxy-agent@7.0.4
 pnpm install -g console-table-printer@2.12.0
 pip  install -U --force-reinstall pip
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ jieba
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ requests
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ lxml
-pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ gmssl
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ jieba
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ requests
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ lxml
+pip3 install -i https://mirrors.aliyun.com/pypi/simple/ gmssl
 rm -rf /usr/local/pnpm-global/5/node_modules/.pnpm/canvas*
 rm -rf /root/.local/share/pnpm/global/5/.pnpm/canvas*
 echo -e "\n所需依赖安装完成，请检查有没有报错，可尝试再次运行"
